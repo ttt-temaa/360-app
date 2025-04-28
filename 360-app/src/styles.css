@@ -1,4 +1,166 @@
-/* You can add global styles to this file, and also import other style files */
+/* STRATOSSKYENG-BLACK */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-BLACK.OTF') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* STRATOSSKYENG-BLACKITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-BLACKITALIC.OTF') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-BOLD */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-BOLD.OTF') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-BOLDITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-BOLDITALIC.OTF') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-EXTRABOLD */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-EXTRABOLD.OTF') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-EXTRABOLDITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-EXTRABOLDITALIC.OTF') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-EXTRALIGHT */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-EXTRALIGHT.OTF') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-EXTRALIGHTITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-EXTRALIGHTITALIC.OTF') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-ITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-ITALIC.OTF') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-LIGHT */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-LIGHT.OTF') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-LIGHTITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-LIGHTITALIC.OTF') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-MEDIUM */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-MEDIUM.OTF') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-MEDIUMITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-MEDIUMITALIC.OTF') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-REGULAR */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-REGULAR.OTF') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-SEMIBOLD */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-SEMIBOLD.OTF') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-SEMIBOLDITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-SEMIBOLDITALIC.OTF') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-SEMILIGHT */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-SEMILIGHT.OTF') format('opentype');
+  font-weight: 350;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-SEMILIGHTITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-SEMILIGHTITALIC.OTF') format('opentype');
+  font-weight: 350;
+  font-style: italic;
+}
+
+/* STRATOSSKYENG-THIN */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-THIN.OTF') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* STRATOSSKYENG-THINITALIC */
+@font-face {
+  font-family: 'StratosSkyeng';
+  src: url('./assets/fonts/STRATOSSKYENG-THINITALIC.OTF') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: 'StratosSkyeng', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
